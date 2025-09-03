@@ -1,7 +1,7 @@
 package br.com.mariojp.solid.isp;
 
-public interface MultiFunctionDevice {
-	void print(String content);
+public interface ScanDevice {
 
 	void scan(String targetFile);
+	
 }
